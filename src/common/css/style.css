@@ -1,0 +1,102 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-size: .24rem;
+  font-family: "微软雅黑";
+  box-sizing: border-box;
+  color: #333;
+}
+
+html {
+  font-size: calc(100/750*100vw);
+}
+
+body {
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+
+a {
+  -webkit-tap-highlight-color: transparent;
+  color: #333;
+}
+
+html,
+body,
+#root,
+.App {
+  width: 100%;
+  height: 100%;
+}
+
+.dl {
+  width: 100%;
+  height: auto;
+}
+
+dl {
+  display: flex;
+}
+
+dl dt {
+  width: 30%;
+  height: auto;
+  margin-right: .2rem;
+}
+
+dl dt img {
+  width: 100%;
+  height: auto;
+}
+
+.dl_p {
+  width: 2.5rem;
+  height: 1rem;
+  display: flex;
+  position: relative;
+}
+
+.dl_p p {
+  font-size: 0.5rem !important;
+  color: #000;
+  margin: .12rem;
+}
+
+.dl_p .plus {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.dl_p .plus, .dl_p .minus {
+  width: .65rem;
+  height: .65rem;
+  line-height: .65rem;
+  text-align: center;
+  border: 1px solid steelblue;
+}
+
+.dl_pp {
+  font-size: .55rem;
+  color: blueviolet;
+  width: 100%;
+  text-align: center;
+}
+
+.fot {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1.2rem;
+  background: forestgreen;
+}
+
+.fot span {
+  color: #fff;
+  font-size: .55rem;
+  margin: 0 .35rem;
+}
